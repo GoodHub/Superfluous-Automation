@@ -34,6 +34,9 @@
 	- ensure libraries are working properly
 	- clone repository
 	- run the projuct from Sudoku_Main.py
+	
+## Glaring Issue.
+* When the site(https://www.livesudoku.com/) loses focus pynput isnt able to enter the sudoku values in their 				respective squares. To circumvent this issue i wrote the project in such a way that after necessary data is collected from the 		user, so long as they don't remove focus from the site everything works accordingly. BUT this is obviously a bandAid solution to the problem.
 
 
 ### **:sun_with_face: Feel free to fork this repository and extend the capabilities of the project! :sun_with_face:**
