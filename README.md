@@ -7,7 +7,6 @@
 ## Libraries
 * Selenium - webdriver :gear:
 * Time :clock1:
-* pynput :computer:
 
 
 ## Project
@@ -25,7 +24,7 @@
 
 	The drawn board is then passed through a sudoku solver, finally returning a solution 
 
-	This solution is then entered into the https://www.livesudoku.com/ site with the help of xpath, selenium and pynput.
+	This solution is then entered into the https://www.livesudoku.com/ site with the help of xpath, and selenium.
 	
 	
 ## Getting Started!
@@ -34,10 +33,6 @@
 	- ensure libraries are working properly
 	- clone repository
 	- run the projuct from Sudoku_Main.py
-	
-## Glaring Issue.
-* When the site(https://www.livesudoku.com/) loses focus pynput isnt able to enter the sudoku values in their 				respective squares. To circumvent this issue the project is written in such a way that after necessary data is collected from the user, so long as they don't remove focus from the site everything works accordingly. BUT this is obviously a band-aid solution to the problem.
-
 
 ### **:sun_with_face: Feel free to fork this repository and extend the capabilities of the project! :sun_with_face:**
 	
