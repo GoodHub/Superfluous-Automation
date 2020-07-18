@@ -90,7 +90,7 @@ def cord_position_column(position):
 
 def cord_position_row(position):
 
-    if position in range(1, 9):
+    if position in range(0, 9):
         return 0
     elif position in range(9, 18):
         return 1
